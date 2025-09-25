@@ -1,0 +1,32 @@
+:root {
+  --primary: #65afff;
+}
+.nav-link.active {
+  color: var(--primary);
+  font-weight: 600;
+}
+.bg-primary {
+  background-color: var(--primary);
+}
+.text-primary {
+  color: var(--primary);
+}
+.border-primary {
+  border-color: var(--primary);
+}
+.hover\:bg-primary:hover {
+  background-color: var(--primary);
+}
+.hover\:text-primary:hover {
+  color: var(--primary);
+}
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(101, 175, 255, 0.2);
+}
+.project-card:hover {
+  transform: scale(1.03);
+}
+.testimonial-card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
